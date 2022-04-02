@@ -97,7 +97,7 @@ namespace br.com.Money
             int userChoice = 0; // variable to store return value
 
             // array of amounts to correspond to menu numbers
-            int[] amounts = { 0, 20, 40, 60, 00, 200 };
+            int[] amounts = { 0, 20, 40, 60, 100, 200 };
 
             // loop while no valid choice has been made
             while (userChoice == 0)
@@ -107,7 +107,7 @@ namespace br.com.Money
                 UserScreen.DisplayMessageLine("1 - $20");
                 UserScreen.DisplayMessageLine("2 - $40");
                 UserScreen.DisplayMessageLine("3 - $60");
-                UserScreen.DisplayMessageLine("4 - $ 00");
+                UserScreen.DisplayMessageLine("4 - $100");
                 UserScreen.DisplayMessageLine("5 - $200");
                 UserScreen.DisplayMessageLine("6 - Cancel transaction");
                 UserScreen.DisplayMessage(
